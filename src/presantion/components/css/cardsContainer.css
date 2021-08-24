@@ -1,0 +1,109 @@
+.search-input{
+    padding: 15px 180px 15px 40px;
+    border-radius: 60px;
+    background-color: rgba(42, 41, 91, 0.302);
+    border: 1px solid rgba(190, 174, 255, 0.3);
+    font-size: 18px;
+    line-height: 1.556;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+}
+.search-container{
+    background-color: #3a398a;
+
+    position: relative;
+    border-radius: 60px;
+    max-width: 768px;
+
+    display: flex;
+    top: 60px;
+    margin-bottom: 157px;
+
+}
+.card-wrapper{
+    width: 100%;
+    border-color: #dee2e6;
+    background-color: #353471;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+.ticker-info h4{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.ticker-info span{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffe27e;
+    line-height: 1.667;
+}
+.tickerPrice {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.889;
+    color: #ffffff;
+}
+.card-button{
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.75;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 3px 20px;
+    border: 1px solid #beaeff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.stock-image{
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    border: 1px solid #f8010a;
+    outline: none;
+    border-radius: 50px;
+}
+.text {
+    display: inline-block;
+    padding-left: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .text{
+        padding-left: 10px;
+    }
+    .card-button{
+        padding: 3px 11px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .header-captions{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .stock-image{
+        display: none;
+    }
+
+}
+table {
+    color: #fff !important;
+}

@@ -1,0 +1,20 @@
+
+
+.header {
+    color: #fff;
+    background: rgb(53,52,113);
+    background: linear-gradient(90deg, rgba(53,52,113,1) 33%, rgba(32,36,66,1) 80%);
+
+}
+.header-captions{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.header-captions h1{
+    font-size:60px !important;
+
+}
+.header-captions p {
+    font-size:20px;
+    margin-left:20px;
+}

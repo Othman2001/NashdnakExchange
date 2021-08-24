@@ -1,0 +1,41 @@
+.us-outline {
+    background-color: #353471;
+    padding: 18px 30px;
+}
+
+.Us-title {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.us-outline p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.us-button {
+    margin: 0 auto;
+    border: 3px solid #25294a;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 14px 37px;
+    transition: color 0.5s ease-in-out;
+    font-weight: 600px;
+}
+
+.us-button:hover {
+    background-color:#25294a;
+    color: #fff;
+    cursor: pointer;
+}
+.services-title{
+    color: #ffffff;
+}
+.Us-title {
+    color: #fff;
+}

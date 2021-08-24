@@ -1,0 +1,50 @@
+.test-title span {
+    font-size: 22px;
+    color: #ffffff;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.test-content p {
+    font-style: italic;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.box-image img {
+    border-radius: 50%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+    float: left;
+}
+
+.box-info {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: right;
+}
+
+.box-info h3 {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.box-info h4 {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.customer-box{
+    padding-bottom: 30px;
+}
